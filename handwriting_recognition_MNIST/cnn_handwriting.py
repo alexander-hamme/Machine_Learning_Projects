@@ -15,7 +15,7 @@ BATCH_SIZE = 200
 RANDOM_SEED = 7
 
 backend.set_image_dim_ordering('th')
-numpy.random.seed(RANDOM_SEED)      # set random seed to enable easy reproducibility
+numpy.random.seed(RANDOM_SEED)       # set random seed to enable easy reproducibility
 
 # load data
 (x_train, y_train), (x_test, y_test) = mnist.load_data()
