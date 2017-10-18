@@ -1,7 +1,7 @@
 """
 @author Alexander Hamme
 
-With inspiration and code from Dr. Jason Brownlee's Machine Learning blogs
+With inspiration/code from Dr. Jason Brownlee's Machine Learning blogs
 """
 from keras.datasets import mnist
 from keras.utils import np_utils
